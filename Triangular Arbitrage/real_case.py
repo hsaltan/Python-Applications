@@ -23,7 +23,7 @@ def currency_arbitrage_parameters(x = 1_000_000, y = 0.005, z = 'USD'):
 
     
 def forexrates_parser():
-    driver = webdriver.Chrome('/Users/hasanserdaraltan/OneDrive/Files/Education/Data_Science/Lab/ZL_Supplementary_Files/chromedriver')
+    driver = webdriver.Chrome('/YOUR_PATH/chromedriver')
     driver.get(url)  
 
     # Make sure that the page is loaded 
